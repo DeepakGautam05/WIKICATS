@@ -5,7 +5,8 @@ function DataProvider({ children }) {
   const [data, setData] = useState([]);
   const [moreImages, setMoreImages] = useState([]);
 
-  const backendURL = import.meta.env.VITE_REACT_APP_BACKEND_URL;
+  const backendURL = "https://wikiback.onrender.com"
+    // import.meta.env.VITE_REACT_APP_BACKEND_URL;
 
   const fetchData = async () => {
     try {
